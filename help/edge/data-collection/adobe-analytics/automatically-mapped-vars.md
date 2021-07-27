@@ -82,7 +82,7 @@ Below is a list of variables that Adobe Experience Platform Edge Network automat
 | `placeContext.geo.longitude` | `lon` | AppMeasurement query parameter LONGITUDE mapping. |
 | `placeContext.geo.postalCode` | `zip` | AppMeasurement query parameter ZIP mapping. |
 | `placeContext.geo.stateProvince` | `state` | AppMeasurement query parameter STATE mapping. |
-| `productListItems.[N]._[NAME_SPACE].*` | `products` |  AppMeasurement query parameter Products Merchandise Events / Evars mapping. |
+| `productListItems.[N]._[NAME_SPACE].*` | `products` |  AppMeasurement query parameter Products Merchandise Events / Evars mapping. Example: `productListItems.[N]._experience.analytics.customDimensions.eVars.eVar1` |
 | `productListItems.[N].name` | `products` | AppMeasurement query parameter Products Name mapping. |
 | `productListItems.[N].priceTotal` | `products` | AppMeasurement query parameter Products Price mapping. |
 | `productListItems.[N].quantity` | `products` | AppMeasurement query parameter Products Quantity mapping. |
