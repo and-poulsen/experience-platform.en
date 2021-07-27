@@ -82,10 +82,10 @@ Below is a list of variables that Adobe Experience Platform Edge Network automat
 | `placeContext.geo.longitude` | `lon` | AppMeasurement query parameter LONGITUDE mapping. |
 | `placeContext.geo.postalCode` | `zip` | AppMeasurement query parameter ZIP mapping. |
 | `placeContext.geo.stateProvince` | `state` | AppMeasurement query parameter STATE mapping. |
-| `productlistitems.[N]._[NAME_SPACE].*` | `products` |  AppMeasurement query parameter Products Merchandise Events / Evars mapping. |
-| `productlistitems.[N].name` | `products` | AppMeasurement query parameter Products Name mapping. |
-| `productlistitems.[N].priceTotal` | `products` | AppMeasurement query parameter Products Price mapping. |
-| `productlistitems.[N].quantity` | `products` | AppMeasurement query parameter Products Quantity mapping. |
+| `productListItems.[N]._[NAME_SPACE].*` | `products` |  AppMeasurement query parameter Products Merchandise Events / Evars mapping. |
+| `productListItems.[N].name` | `products` | AppMeasurement query parameter Products Name mapping. |
+| `productListItems.[N].priceTotal` | `products` | AppMeasurement query parameter Products Price mapping. |
+| `productListItems.[N].quantity` | `products` | AppMeasurement query parameter Products Quantity mapping. |
 | `web.webInteraction.URL` | `pev1` | AppMeasurement query parameter PAGE_EVENT_VAR1 mapping. |
 | `web.webInteraction.name` | `pev2` | AppMeasurement query parameter PAGE_EVENT_VAR2 mapping. |
 | `web.webInteraction.type` | `pe` | `web.webInteraction.type=other` to `pe=lnk_o`; `web.webInteraction.type=download` to `pe=lnk_d`; `web.webInteraction.type=exit` to `pe=lnk_e` |
